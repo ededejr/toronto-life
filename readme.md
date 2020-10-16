@@ -26,10 +26,9 @@ This Project was intended for the University of Waterloo GEOG 481 Class in Fall 
 You can view a demo of the final project [here](https://torontolife-481.web.app).
 
 ### Project Deck
+You can view a the project deck as a pdf [here](https://s3.amazonaws.com/resume.edede/TorontoLife.pdf) or in the **project-description.pdf** file in this repo.
 
 #### Preview
 ![Project Deck Preview](./project.png)
-
-You can view a more descriptive project as a pdf deck [here](https://s3.amazonaws.com/resume.edede/TorontoLife.pdf) or in the **project-description.pdf** file in this repo.
 
 > My role was focused on writing scripts to parse and process raw data, and implementing a simplified version of a content recommender system via the DataSvc and LivabilitySvc
