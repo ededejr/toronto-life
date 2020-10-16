@@ -2,7 +2,7 @@
 
 _Project Members: Edede Oiwoh, Steven Nguyen,Haoying Cui, Yuefan Ding._
 
-This Project was intended for the GEOG481 Class in Fall 2019.
+This Project was intended for the University of Waterloo GEOG 481 Class in Fall 2019.
 
 ## Objective
 
