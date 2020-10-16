@@ -1,0 +1,46 @@
+{
+  "name": "torontolife",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cheerio": "^1.0.0-rc.3",
+    "compute-cosine-similarity": "^1.0.0",
+    "d3": "^5.12.0",
+    "detect-browser": "^4.8.0",
+    "mongodb": "^3.3.2",
+    "node-sass": "^4.13.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.9.0",
+    "react-input-range": "^1.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "react-select": "^3.0.8",
+    "request": "^2.88.0",
+    "string-similarity": "^3.0.0",
+    "topojson": "^3.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test-ls": "node --experimental-modules src/tests/livability-service.test.mjs",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

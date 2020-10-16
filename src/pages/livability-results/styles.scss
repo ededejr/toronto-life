@@ -1,0 +1,212 @@
+$main-color: #3e51b5;
+$alternate-color: #282c34;
+$accent-color: #363a48;
+
+body {
+  overflow: auto;
+}
+
+.App {
+  position: fixed;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.map-side {
+  padding: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.sidebar {
+  height: 100vh;
+  margin-top: 0;
+  box-shadow: 0 0 5px 0 #0000001c;
+}
+
+.navbar {
+  background: $alternate-color;
+}
+
+.pref-button {
+  height: 56px;
+  background: $accent-color;
+}
+
+.pref-button button {
+  margin: 9px 0;
+}
+
+.statistics-box {
+  margin: 10px;
+  padding: 10px;
+  background: #f7f7f7;
+
+  h6 {
+    text-align: left;
+
+    &.text {
+      padding-bottom: 10px;
+      border-bottom: solid 0.5px #e6e6e6;
+    }
+  }
+}
+
+.statistics-content {
+  background: white;
+  padding-top: 10px;
+}
+
+.card-header {
+  text-align: left;
+}
+
+.card {
+  margin-top: 12px;
+}
+
+.bar {
+  fill: $accent-color;
+  transition:0.2s;
+  stroke: #f7f7f7;
+}
+.bar:hover {
+  fill: $alternate-color;
+}
+
+.chart-tooltip, .map-tooltip {
+  position: absolute;
+  white-space: nowrap;
+  background: #ffffffdb;
+  font-size: 12px;
+  padding: 2px 6px;
+  color: #404040;
+  border-radius: 4px;
+  border: 1px solid #bbbbbb;
+  display: none;
+}
+
+.pie-slice {
+  stroke-width: 1px;
+  transition:0.2s;
+}
+
+.pie-slice:hover {
+  fill: #ef5f36;
+}
+
+.question-group {
+  padding: 0 8px;
+  margin-bottom: 32px;
+}
+
+.map-svg-container {
+  flex: 1 1 auto;
+}
+
+#map {
+  background: #f7f7f7;
+  position: relative;
+}
+
+#map-legend {
+  position: absolute;
+  bottom: 1.2em;
+  right: 1.1em;
+  display: flex;
+  width: 285px;
+  height: 165px;
+  padding: 0;
+}
+
+.neighborhoods {
+  fill: #627989;
+  stroke-width:0.5px;
+  stroke: white;
+  cursor: pointer;
+}
+
+.neighborhoods path {
+  transition: 1.5s;
+}
+
+.neighborhoods path:hover {
+  fill: #ef5f36!important;
+  transition: 0.25s;
+  stroke-width:1px;
+}
+
+.neighborhoods path.detailed:hover {
+  fill: #fff!important;
+}
+
+.neighborhoods .recommended {
+  fill: #123850;
+}
+
+.neighborhoods .selected-poi {
+  fill: #ef5f36;
+}
+
+.neighborhoods path.detailed-selected-poi {
+  fill: #fff!important;
+}
+
+.question-group .input-range__slider {
+  background: #ef5f36;
+  border: 1px solid #ef5f36;
+}
+
+.question-group .input-range__track--active {
+  background: #ef5f36;
+}
+
+.toast-container {
+  position: fixed;
+  z-index: 1;
+  top: 64px;
+  left: 8px;
+}
+
+.statistics-cards {
+  height: 90vh;
+  overflow-y: scroll;
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
