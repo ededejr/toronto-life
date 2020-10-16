@@ -22,6 +22,6 @@ pipelines:
                   - pipe: atlassian/firebase-deploy:0.3.5
                     variables:
                         FIREBASE_TOKEN: $FIREBASE_TOKEN
-                        PROJECT_ID: 'torontolife-481'
+                        PROJECT_ID: $FIREBASE_PROJECT_ID
                         MESSAGE: 'Deploying TorontoLife'
     
