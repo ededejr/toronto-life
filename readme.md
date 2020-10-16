@@ -4,8 +4,6 @@ _Project Members: Edede Oiwoh, Steven Nguyen, Haoying Cui, Yuefan Ding._
 
 This Project was intended for the University of Waterloo GEOG 481 Class in Fall 2019.
 
-> My role was focused on writing scripts to parse and process raw data, and implementing a simplified version of a content recommender system via the DataSvc and LivabilitySvc
-
 ## Objective
 
 * To assess the relative livability of the 140 neighbourhoods in Toronto
@@ -33,3 +31,5 @@ You can view a demo of the final project [here](https://torontolife-481.web.app)
 ![Project Deck Preview](./project.png)
 
 You can view a more descriptive project as a pdf deck [here](https://s3.amazonaws.com/resume.edede/TorontoLife.pdf) or in the **project-description.pdf** file in this repo.
+
+> My role was focused on writing scripts to parse and process raw data, and implementing a simplified version of a content recommender system via the DataSvc and LivabilitySvc
